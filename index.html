@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragrance Vault - Order Perfumes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Fragrance Vault</h1>
+    <p>Luxury Fragrances Delivered To You</p>
+</header>
+
+
+<section class="products">
+
+    <div class="card">
+        <img src="khamra.png" alt="Khamrah Perfume">
+
+        <h2>Khamrah</h2>
+        <h3>R400</h3>
+
+        <p>
+            Warm cinnamon, vanilla, amber and woody notes.
+            A rich long-lasting fragrance.
+        </p>
+
+        <button onclick="order('Khamrah')">
+            Order Now
+        </button>
+    </div>
+
+
+    <div class="card">
+
+        <img src="perfume2.png" alt="Perfume">
+
+        <h2>Royal Essence</h2>
+        <h3>R450</h3>
+
+        <p>
+            A classy fragrance with sweet and elegant notes.
+        </p>
+
+        <button onclick="order('Royal Essence')">
+            Order Now
+        </button>
+
+    </div>
+
+
+</section>
+
+
+<section class="order">
+
+    <h2>Place Your Order</h2>
+
+    <input type="text" placeholder="Your Name">
+
+    <input type="text" placeholder="Phone Number">
+
+    <input type="text" placeholder="Address">
+
+    <button>
+        Submit Order
+    </button>
+
+</section>
+
+
+<footer>
+    <p>© 2026 Fragrance Vault</p>
+</footer>
+
+
+<script>
+
+function order(product){
+    alert("You selected " + product + ". Please complete your order below.");
+}
+
+</script>
+
+
+</body>
+</html>
